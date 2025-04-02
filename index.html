@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Flip the coin | devChallenges.io</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Flip the Coin</h1>
+      <p class="description">Press the coin or the button to flip the coin</p>
+    </header>
+
+    <main>
+      <div class="coin-wrapper">
+        <div class="coin" data-container="coin">
+          <img
+            src="./img/Head.svg"
+            alt="moneda"
+            data-coin="head"
+            class="cara"
+          />
+          <img
+            src="./img/Tails.svg"
+            alt="moneda"
+            data-coin="tails"
+            class="cruz"
+          />
+        </div>
+      </div>
+      <p class="coin-title">Tails</p>
+    </main>
+
+    <footer>
+      <button class="button" data-button="Random">Random</button>
+    </footer>
+  </body>
+</html>
